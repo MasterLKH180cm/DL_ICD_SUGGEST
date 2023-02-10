@@ -1,0 +1,344 @@
+Ranger optimizer loaded. 
+Gradient Centralization usage = True
+GC applied to both conv and fc layers
+80
+1
+Step: 50 char-loss:  tensor(1.6949, device='cuda:0')
+Step: 100 char-loss:  tensor(1.0655, device='cuda:0')
+Step: 150 char-loss:  tensor(1.5624, device='cuda:0')
+Step: 200 char-loss:  tensor(0.5056, device='cuda:0')
+Step: 250 char-loss:  tensor(0.2217, device='cuda:0')
+Step: 300 char-loss:  tensor(0.0809, device='cuda:0')
+Step: 350 char-loss:  tensor(0.0109, device='cuda:0')
+Step: 400 char-loss:  tensor(0.0023, device='cuda:0')
+Step: 450 char-loss:  tensor(0.0037, device='cuda:0')
+Step: 500 char-loss:  tensor(0.0303, device='cuda:0')
+Step: 550 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 600 char-loss:  tensor(0.0004, device='cuda:0')
+Step: 650 char-loss:  tensor(0.0004, device='cuda:0')
+Step: 700 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 750 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 800 char-loss:  tensor(0.0003, device='cuda:0')
+Model has been saved as epoch1_auto_encoder.pt
+tprs:  [0.12248085686820864]
+accs:  [0.2380662815445424]
+coverage_errors:  [30892.22316813621]
+2
+Step: 850 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 900 char-loss:  tensor(0.0013, device='cuda:0')
+Step: 950 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 1000 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 1050 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 1100 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 1150 char-loss:  tensor(5.8551e-05, device='cuda:0')
+Step: 1200 char-loss:  tensor(0.0004, device='cuda:0')
+Step: 1250 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 1300 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 1350 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 1400 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 1450 char-loss:  tensor(0.0004, device='cuda:0')
+Step: 1500 char-loss:  tensor(8.4400e-05, device='cuda:0')
+Step: 1550 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 1600 char-loss:  tensor(0.0001, device='cuda:0')
+Model has been saved as epoch2_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197]
+accs:  [0.2380662815445424, 0.3688051079355427]
+coverage_errors:  [30892.22316813621, 14159.9656430526]
+3
+Step: 1650 char-loss:  tensor(8.4573e-05, device='cuda:0')
+Step: 1700 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 1750 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 1800 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 1850 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 1900 char-loss:  tensor(0.0004, device='cuda:0')
+Step: 1950 char-loss:  tensor(5.6792e-05, device='cuda:0')
+Step: 2000 char-loss:  tensor(0.0009, device='cuda:0')
+Step: 2050 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 2100 char-loss:  tensor(9.9473e-05, device='cuda:0')
+Step: 2150 char-loss:  tensor(9.2477e-05, device='cuda:0')
+Step: 2200 char-loss:  tensor(0.0005, device='cuda:0')
+Step: 2250 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 2300 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 2350 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 2400 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 2450 char-loss:  tensor(0.0003, device='cuda:0')
+Model has been saved as epoch3_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257]
+4
+Step: 2500 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 2550 char-loss:  tensor(0.0011, device='cuda:0')
+Step: 2600 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 2650 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 2700 char-loss:  tensor(0.0008, device='cuda:0')
+Step: 2750 char-loss:  tensor(6.9600e-05, device='cuda:0')
+Step: 2800 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 2850 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 2900 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 2950 char-loss:  tensor(5.7520e-05, device='cuda:0')
+Step: 3000 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 3050 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 3100 char-loss:  tensor(9.2174e-05, device='cuda:0')
+Step: 3150 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 3200 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 3250 char-loss:  tensor(6.9510e-05, device='cuda:0')
+Model has been saved as epoch4_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627]
+5
+Step: 3300 char-loss:  tensor(8.2618e-05, device='cuda:0')
+Step: 3350 char-loss:  tensor(0.0006, device='cuda:0')
+Step: 3400 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 3450 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 3500 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 3550 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 3600 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 3650 char-loss:  tensor(7.6967e-05, device='cuda:0')
+Step: 3700 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 3750 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 3800 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 3850 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 3900 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 3950 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 4000 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 4050 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 4100 char-loss:  tensor(0.0003, device='cuda:0')
+Model has been saved as epoch5_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412]
+6
+Step: 4150 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 4200 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 4250 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 4300 char-loss:  tensor(8.7942e-05, device='cuda:0')
+Step: 4350 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 4400 char-loss:  tensor(8.9732e-05, device='cuda:0')
+Step: 4450 char-loss:  tensor(9.3894e-05, device='cuda:0')
+Step: 4500 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 4550 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 4600 char-loss:  tensor(4.2127e-05, device='cuda:0')
+Step: 4650 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 4700 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 4750 char-loss:  tensor(5.9933e-05, device='cuda:0')
+Step: 4800 char-loss:  tensor(5.0911e-05, device='cuda:0')
+Step: 4850 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 4900 char-loss:  tensor(0.0002, device='cuda:0')
+Model has been saved as epoch6_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046]
+7
+Step: 4950 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 5000 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 5050 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 5100 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 5150 char-loss:  tensor(9.7037e-05, device='cuda:0')
+Step: 5200 char-loss:  tensor(8.6200e-05, device='cuda:0')
+Step: 5250 char-loss:  tensor(6.8840e-05, device='cuda:0')
+Step: 5300 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 5350 char-loss:  tensor(6.6957e-05, device='cuda:0')
+Step: 5400 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 5450 char-loss:  tensor(5.8654e-05, device='cuda:0')
+Step: 5500 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 5550 char-loss:  tensor(7.3483e-05, device='cuda:0')
+Step: 5600 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 5650 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 5700 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 5750 char-loss:  tensor(0.0001, device='cuda:0')
+Model has been saved as epoch7_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907]
+8
+Step: 5800 char-loss:  tensor(9.8211e-05, device='cuda:0')
+Step: 5850 char-loss:  tensor(6.3902e-05, device='cuda:0')
+Step: 5900 char-loss:  tensor(9.1886e-05, device='cuda:0')
+Step: 5950 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 6000 char-loss:  tensor(9.4948e-05, device='cuda:0')
+Step: 6050 char-loss:  tensor(6.3732e-05, device='cuda:0')
+Step: 6100 char-loss:  tensor(6.7565e-05, device='cuda:0')
+Step: 6150 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 6200 char-loss:  tensor(6.2913e-05, device='cuda:0')
+Step: 6250 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 6300 char-loss:  tensor(0.0004, device='cuda:0')
+Step: 6350 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 6400 char-loss:  tensor(8.5502e-05, device='cuda:0')
+Step: 6450 char-loss:  tensor(6.4873e-05, device='cuda:0')
+Step: 6500 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 6550 char-loss:  tensor(7.2699e-05, device='cuda:0')
+Model has been saved as epoch8_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446, 0.1538686719516759]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611, 0.2894496807540286]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907, 3575.3703253268473]
+9
+Step: 6600 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 6650 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 6700 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 6750 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 6800 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 6850 char-loss:  tensor(6.8068e-05, device='cuda:0')
+Step: 6900 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 6950 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 7000 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 7050 char-loss:  tensor(4.8737e-05, device='cuda:0')
+Step: 7100 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 7150 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 7200 char-loss:  tensor(9.6907e-05, device='cuda:0')
+Step: 7250 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 7300 char-loss:  tensor(7.2495e-05, device='cuda:0')
+Step: 7350 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 7400 char-loss:  tensor(0.0001, device='cuda:0')
+Model has been saved as epoch9_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446, 0.1538686719516759, 0.16515234874918672]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611, 0.2894496807540286, 0.29522651261781696]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907, 3575.3703253268473, 3530.7141988446338]
+10
+Step: 7450 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 7500 char-loss:  tensor(8.7336e-05, device='cuda:0')
+Step: 7550 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 7600 char-loss:  tensor(8.7931e-05, device='cuda:0')
+Step: 7650 char-loss:  tensor(7.7420e-05, device='cuda:0')
+Step: 7700 char-loss:  tensor(9.1492e-05, device='cuda:0')
+Step: 7750 char-loss:  tensor(9.0969e-05, device='cuda:0')
+Step: 7800 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 7850 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 7900 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 7950 char-loss:  tensor(7.5923e-05, device='cuda:0')
+Step: 8000 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 8050 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 8100 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 8150 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 8200 char-loss:  tensor(5.4116e-05, device='cuda:0')
+Model has been saved as epoch10_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446, 0.1538686719516759, 0.16515234874918672, 0.1393016294202065]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611, 0.2894496807540286, 0.29522651261781696, 0.2599574338704774]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907, 3575.3703253268473, 3530.7141988446338, 3342.3238066281547]
+11
+Step: 8250 char-loss:  tensor(6.0624e-05, device='cuda:0')
+Step: 8300 char-loss:  tensor(6.3038e-05, device='cuda:0')
+Step: 8350 char-loss:  tensor(7.1394e-05, device='cuda:0')
+Step: 8400 char-loss:  tensor(8.1764e-05, device='cuda:0')
+Step: 8450 char-loss:  tensor(8.6890e-05, device='cuda:0')
+Step: 8500 char-loss:  tensor(9.6103e-05, device='cuda:0')
+Step: 8550 char-loss:  tensor(6.0624e-05, device='cuda:0')
+Step: 8600 char-loss:  tensor(4.5094e-05, device='cuda:0')
+Step: 8650 char-loss:  tensor(8.6738e-05, device='cuda:0')
+Step: 8700 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 8750 char-loss:  tensor(9.8002e-05, device='cuda:0')
+Step: 8800 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 8850 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 8900 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 8950 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 9000 char-loss:  tensor(7.6086e-05, device='cuda:0')
+Step: 9050 char-loss:  tensor(0.0001, device='cuda:0')
+Model has been saved as epoch11_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446, 0.1538686719516759, 0.16515234874918672, 0.1393016294202065, 0.13279737390409327]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611, 0.2894496807540286, 0.29522651261781696, 0.2599574338704774, 0.25296442687747034]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907, 3575.3703253268473, 3530.7141988446338, 3342.3238066281547, 3511.774095469748]
+12
+Step: 9100 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 9150 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 9200 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 9250 char-loss:  tensor(9.0305e-05, device='cuda:0')
+Step: 9300 char-loss:  tensor(7.7957e-05, device='cuda:0')
+Step: 9350 char-loss:  tensor(6.3892e-05, device='cuda:0')
+Step: 9400 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 9450 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 9500 char-loss:  tensor(8.2465e-05, device='cuda:0')
+Step: 9550 char-loss:  tensor(4.7762e-05, device='cuda:0')
+Step: 9600 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 9650 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 9700 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 9750 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 9800 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 9850 char-loss:  tensor(0.0001, device='cuda:0')
+Model has been saved as epoch12_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446, 0.1538686719516759, 0.16515234874918672, 0.1393016294202065, 0.13279737390409327, 0.1863973861009434]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611, 0.2894496807540286, 0.29522651261781696, 0.2599574338704774, 0.25296442687747034, 0.3557312252964427]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907, 3575.3703253268473, 3530.7141988446338, 3342.3238066281547, 3511.774095469748, 3853.911219215567]
+13
+Step: 9900 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 9950 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 10000 char-loss:  tensor(5.1770e-05, device='cuda:0')
+Step: 10050 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 10100 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 10150 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 10200 char-loss:  tensor(9.0967e-05, device='cuda:0')
+Step: 10250 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 10300 char-loss:  tensor(7.4211e-05, device='cuda:0')
+Step: 10350 char-loss:  tensor(9.5883e-05, device='cuda:0')
+Step: 10400 char-loss:  tensor(6.7974e-05, device='cuda:0')
+Step: 10450 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 10500 char-loss:  tensor(5.3720e-05, device='cuda:0')
+Step: 10550 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 10600 char-loss:  tensor(5.7586e-05, device='cuda:0')
+Step: 10650 char-loss:  tensor(0.0001, device='cuda:0')
+Model has been saved as epoch13_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446, 0.1538686719516759, 0.16515234874918672, 0.1393016294202065, 0.13279737390409327, 0.1863973861009434, 0.1826566275182876]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611, 0.2894496807540286, 0.29522651261781696, 0.2599574338704774, 0.25296442687747034, 0.3557312252964427, 0.34721799939191245]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907, 3575.3703253268473, 3530.7141988446338, 3342.3238066281547, 3511.774095469748, 3853.911219215567, 2975.1660079051385]
+14
+Step: 10700 char-loss:  tensor(9.1210e-05, device='cuda:0')
+Step: 10750 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 10800 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 10850 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 10900 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 10950 char-loss:  tensor(6.5928e-05, device='cuda:0')
+Step: 11000 char-loss:  tensor(5.5020e-05, device='cuda:0')
+Step: 11050 char-loss:  tensor(9.8822e-05, device='cuda:0')
+Step: 11100 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 11150 char-loss:  tensor(7.5678e-05, device='cuda:0')
+Step: 11200 char-loss:  tensor(4.9858e-05, device='cuda:0')
+Step: 11250 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 11300 char-loss:  tensor(6.1660e-05, device='cuda:0')
+Step: 11350 char-loss:  tensor(7.7947e-05, device='cuda:0')
+Step: 11400 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 11450 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 11500 char-loss:  tensor(9.8256e-05, device='cuda:0')
+Model has been saved as epoch14_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446, 0.1538686719516759, 0.16515234874918672, 0.1393016294202065, 0.13279737390409327, 0.1863973861009434, 0.1826566275182876, 0.13308231075029492]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611, 0.2894496807540286, 0.29522651261781696, 0.2599574338704774, 0.25296442687747034, 0.3557312252964427, 0.34721799939191245, 0.260261477652782]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907, 3575.3703253268473, 3530.7141988446338, 3342.3238066281547, 3511.774095469748, 3853.911219215567, 2975.1660079051385, 10206.449072666464]
+15
+Step: 11550 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 11600 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 11650 char-loss:  tensor(7.3796e-05, device='cuda:0')
+Step: 11700 char-loss:  tensor(5.3708e-05, device='cuda:0')
+Step: 11750 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 11800 char-loss:  tensor(6.2103e-05, device='cuda:0')
+Step: 11850 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 11900 char-loss:  tensor(6.7604e-05, device='cuda:0')
+Step: 11950 char-loss:  tensor(6.7823e-05, device='cuda:0')
+Step: 12000 char-loss:  tensor(7.1893e-05, device='cuda:0')
+Step: 12050 char-loss:  tensor(9.6358e-05, device='cuda:0')
+Step: 12100 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 12150 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 12200 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 12250 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 12300 char-loss:  tensor(9.0571e-05, device='cuda:0')
+Model has been saved as epoch15_auto_encoder.pt
+tprs:  [0.12248085686820864, 0.21609173654628197, 0.19501545884945096, 0.20163325914314056, 0.18364616279636045, 0.1693955473599742, 0.1538802655403446, 0.1538686719516759, 0.16515234874918672, 0.1393016294202065, 0.13279737390409327, 0.1863973861009434, 0.1826566275182876, 0.13308231075029492, 0.19650132476219434]
+accs:  [0.2380662815445424, 0.3688051079355427, 0.34965034965034963, 0.35542718151413805, 0.33171176649437517, 0.3137731833384007, 0.2785041045910611, 0.2894496807540286, 0.29522651261781696, 0.2599574338704774, 0.25296442687747034, 0.3557312252964427, 0.34721799939191245, 0.260261477652782, 0.3651565825478869]
+coverage_errors:  [30892.22316813621, 14159.9656430526, 7811.830647613257, 4916.198844633627, 4185.109759805412, 3629.8607479477046, 3599.5396777135907, 3575.3703253268473, 3530.7141988446338, 3342.3238066281547, 3511.774095469748, 3853.911219215567, 2975.1660079051385, 10206.449072666464, 4051.706597750076]
+16
+Step: 12350 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 12400 char-loss:  tensor(6.6210e-05, device='cuda:0')
+Step: 12450 char-loss:  tensor(9.6298e-05, device='cuda:0')
+Step: 12500 char-loss:  tensor(6.0751e-05, device='cuda:0')
+Step: 12550 char-loss:  tensor(0.0002, device='cuda:0')
+Step: 12600 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 12650 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 12700 char-loss:  tensor(6.4180e-05, device='cuda:0')
+Step: 12750 char-loss:  tensor(8.9003e-05, device='cuda:0')
+Step: 12800 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 12850 char-loss:  tensor(8.1674e-05, device='cuda:0')
+Step: 12900 char-loss:  tensor(3.7289e-05, device='cuda:0')
+Step: 12950 char-loss:  tensor(0.0003, device='cuda:0')
+Step: 13000 char-loss:  tensor(5.2848e-05, device='cuda:0')
+Step: 13050 char-loss:  tensor(0.0001, device='cuda:0')
+Step: 13100 char-loss:  tensor(7.7784e-05, device='cuda:0')
+Step: 13150 char-loss:  tensor(9.6101e-05, device='cuda:0')
+Model has been saved as epoch16_auto_encoder.pt
